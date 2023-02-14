@@ -741,8 +741,15 @@ FAQ page
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: column wrap;
     padding-top: 20px;
+    padding-right: 75px;
     /* background: #527158; */
+  }
+
+  .mission-content h2 {
+    width: 85%;
+    margin-top: 50px;
   }
 
   .mission-content p {
@@ -830,6 +837,7 @@ header .nav {
 .hero-area h1 {
   width: 60%;
   font-size: 3.75em;
+  margin-left: 120px;
 }
 
 /* aside */
@@ -851,6 +859,8 @@ aside .content-wrapper .form {
 
 .features h2 {
   width: 85%;
+  margin-left: 120px;
+  
 }
 
 .features article {
@@ -922,10 +932,19 @@ footer .social {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+    margin-left: 100px;
+  }
+
+  .mission p {
+    margin-left: 90px;
   }
 
   .contact-section h4 {
     font-size: 1.875em;
+  }
+
+  .map-container {
+    max-height: 450px;
   }
 
   /* ==================================================================
